@@ -51,12 +51,14 @@ when creating a webpage, we add tags or Markup to the content of the page. These
  ## Visual Editors & their code views
 
  * Visual editors 
+
 often resemble word processors. although each editor will differ slightly.
 
 * Code views
-show you the code created by the visual editor so you can manually edit it.
----- 
 
+show you the code created by the visual editor so you can manually edit it.
+
+------
 
 # Semantic markup
 There are some text elements that are not included to affect the structure of the webpage, but they add extra information to the pages.
@@ -68,6 +70,7 @@ There are some text elements that are not included to affect the structure of th
 * < em> it makes the character *italic*
 
 ## Quotation 
+
 * < blockquote> is used for longer quotes that take an entire paragraph.
 
 * < q> is used for shorter quotes that sit within a paragraph.
@@ -79,6 +82,7 @@ There are some text elements that are not included to affect the structure of th
 ![abbr](images/abbr.png)
 
 ## Citation & difinitions
+
 * < cite> when you are referincing a piece of work such as a book, this tag is used to indicate where the citation is from.
  
 * < dfn> is used to indicate the defining instance of a newterm.
@@ -102,9 +106,10 @@ that has been deleted from it.
 something that is no longer
 accurate.
 
-----
+------
 
 # Understanding CSS:
+
 ## Thinking Inside the Box
 
 The key to understanding how *CSS* works is to imagine that there is an invisible box around every *HTML* element.
@@ -117,14 +122,13 @@ how the content of specified elements should be displayed.
 
  A CSS rule
 contains two parts: a **selector** and a **declaration**.
+
 * Selector: indicate which
 element the rule applies to.
- 
- * Declaration: indicate how
+* Declaration: indicate how
 the elements referred to in the selector should be styled.
 
-CSS Properties Affect How Elements Are
-Displayed 
+CSS Properties Affect How Elements Are Displayed. 
 
 CSS declarations sit inside curly brackets and each is made up of two
 parts: a **property** and a **value**, separated by a *colon*.
@@ -158,9 +162,7 @@ color: rgb(255,255,255);}
 
 < /style>
 
-
 ## CSS Selectors
-
 
 Selector| Meaning| Example
 -------------|---------|-------
@@ -173,18 +175,22 @@ Descendant Selector | Matches an element that is a descendent of another specifi
 Adjacent Sibling Selector| Matches an element that is the next sibling of another | h1+p {}Targets the first < p> element after any < h1> element
 General Sibling| Matches an element that is a sibling of another, although it does not have to be the directly preceding element Selector | h1~p {} If you had two  < p> elements that are siblings of an < h1> element, this rule would apply to both
 
-----
+-------
 
 # Java
+
 * STATEMENTS
 A script is a series of instructions that a computer can follow one-by-one.
 * COMMENTS to explain what your code does.
 
 ## WHAT IS A VARIABLE?
+
 A script will have to temporarily
 store the bits of information it
 needs to do its job.
+
 ## DATA TYPES 
+
 * NUMERIC DATA TYPE
 The numeric data type handles
 numbers.
@@ -196,6 +202,7 @@ can have one
 of two values: true or false
 
 ## CHANGING THE VALUE OF A VARIABLE
+
 Once you have assigned a value
 to a variable, you can then
 change what is stored in the
@@ -204,6 +211,7 @@ variable later in the same script.
 ![var](images/var.png)
 
 ## RULES FOR NAMING VARIABLES
+
 * The name must begin with
 a letter, dollar sign ($),or an
 underscore (_). It must not start
@@ -227,21 +235,29 @@ capital letter for the first letter of
 every word after the first word.
 
 ## ARRAYS
+
 An **array** is a special type of variable. It doesn't
 just store one value; it stores a list of values.
+
 ## CREATING AN ARRAY
+
 You create an array and give it
 a name just like you would any
 other variable (using the var
 keyword followed by the name of
 the array).
+
 ## VALUES IN ARRAYS
+
 Values in an array are accessed as if they are in
 a numbered list.
+
 ## ACCESSING & CHANGING VALUES IN AN ARRAY
+
 ![arra](images/arra.png)
 
 ## EXPRESSIONS
+
 An expression evaluates into (results in) a single value.
 Types of Expressions:
 
@@ -253,22 +269,25 @@ the assignment operator (the equals sign).
 var color = 'beige';
 * EXPRESSIONS THAT USE TWO OR
 MORE VALUES TO RETURN A
-SINGLE VALUE: 
+SINGLE VALUE:
 You can perform operations on any number of
 individual values (see next page) to determine a
 single value. For example:
 var area = 3 * 2;
 
 ## OPERATORS
+
 Expressions rely on things called operators; they allow programmers to
 create a single value from one or more values.
 
 ## ARITHMETIC OPERATORS
+
 (+,-,/,*,++,--,%)
 
 ![arreth](images/arreth.png)
 
 ------
+
 # Switch
 
 A switch statement starts with a
