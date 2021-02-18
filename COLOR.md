@@ -1,20 +1,25 @@
 # COLOR
+
 Color can really bring your pages to life.
+
 ## Foreground Color
+
 ---
+
 * The **color** property allows you
+
 to specify the color of text inside
 an element.
 
 * you can select a color in three ways:
 
-     * rgb values
-     * hex codes
-     * color names
+  * rgb values
+    * hex codes
+    * color names
      ![colorways](images/colorsways.png)
 
-
 # Background Color
+
 *CSS* treats each *HTML* element
 as if it appears in a **box**, and the
 background-color property
@@ -23,12 +28,13 @@ for that box.
 ![backgroundcolor](images/bkgcolor.png)
 
 # Understanding Color
+
 Every color on a computer screen is created by mixing amounts of red,green, and blue.
 
 To find the color you want, you can use a color picker.
 ![colorpicker](images/colorpk.png)
 
-# Contrast 
+# Contrast
 
 When picking **foreground* and *background*
 colors, it is important to ensure that there is
@@ -36,6 +42,7 @@ enough **contrast** for the text to be legible.
 ![colorcontrast](images/colorcont.png)
 
 # CSS 3: Opacity
+
 ## Opacity, rgba
 
 **CSS3** introduces the *opacity*
@@ -55,6 +62,7 @@ but adds a fourth value to
 indicate opacity.
 
 ## HSL COLOR
+
 **Hue** is the colloquial idea of
 color. In HSL colors, hue is often
 represented as a color circle
@@ -80,6 +88,7 @@ is sometimes referred to as
 ***luminosity***.
 
 ## HSL and HSLA
+
 **Hue** This is expressed as an angle
 (between 0 and 360 degrees).
 
