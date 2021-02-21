@@ -1,4 +1,5 @@
 # TEXT
+
 when creating a webpage, we add tags or Markup to the content of the page. These tags provide meaning & allow browsers to show users the appropriate structure for the page.
 
 ## There is two types of markup
@@ -13,15 +14,17 @@ when creating a webpage, we add tags or Markup to the content of the page. These
 * h3 is used if there is any sections under the subheading.
  h1 is the largest and h6 is the smallest.
 
- ## Paragraphs
+## Paragraphs
+
  To create a normal paragraph we just sorround it with the < p>< /p > tags.
 
- ## Bold & Italic
+## Bold & Italic
+
  < b> tag is used to make the character bold.
 
  < i> it make the character italic.
 
- ## Superscript & Subscript
+## Superscript & Subscript
 
  < sup> it make the character superscript 
 
@@ -31,7 +34,7 @@ when creating a webpage, we add tags or Markup to the content of the page. These
 
  ![sup](images/sup.png)
 
- < sub> it used to make the character subscript 
+ < sub> it used to make the character subscript
 
  ![subs](images/subs.png)
  
@@ -39,18 +42,19 @@ when creating a webpage, we add tags or Markup to the content of the page. These
 
 ![sub](images/sub.png)
  
- ## Whitespace
+## Whitespace
+
  In order to make code easier to read, webpage Author often add extra spaces between elements. so when the browser comes across two or more spaces next to each other it only display one space.
 
- ## Line breaks & Horizontal Rules
+## Line breaks & Horizontal Rules
 
- * < br/> when using it in the end of a word it will make a new line to start the rest of the words.
+* < br/> when using it in the end of a word it will make a new line to start the rest of the words.
 
  *< hr/> it is used to create breaks between themes such as when starting a new topic.
 
- ## Visual Editors & their code views
+## Visual Editors & their code views
 
- * Visual editors 
+* Visual editors 
 
 often resemble word processors. although each editor will differ slightly.
 
@@ -61,6 +65,7 @@ show you the code created by the visual editor so you can manually edit it.
 ------
 
 # Semantic markup
+
 There are some text elements that are not included to affect the structure of the webpage, but they add extra information to the pages.
 
 ## Strong & Emphasis
