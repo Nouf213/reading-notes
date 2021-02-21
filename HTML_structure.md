@@ -9,23 +9,29 @@
 Design tips to help you create more *Attractive* & *Professional* sites.
 
 ## Who might visit your website? who is your Audience?
+
 every website should target Audience such as **individuals** or **Companies**.
+
 ## How to understand your ***Audience***? why they are visiting your Website?
+
 after knowing who are your audience, now you need to understand them.
 your designs should be **influenced** by your visitors or users.
 
 -----
 
 ## To help determine why people are visiting your website. there are two categories of Questions.
+
 1. What is their **Goals** to visit your website?
 1. What is the **Motivaqtion** of your Useres to visit your website?
 
-* ### key Motivations :
+* ### key Motivations
+
 1. Entertainment or Specific Goal.
 1. Is the Goal personal or Professional.
 1. Is spending time on this activity Essential or luxury.
 
-* ### Goals :
+* ### Goals
+
 1. Wanting General information / research.
 1. are they familiar with your **Service** or **Product**.
 1. Looking for time sensitive information.
@@ -46,15 +52,21 @@ Determine **What** they need to achieve their goals.
 a Fashion trends website needs to change more frequently than one promote services people dont buy regularly.
 
 ### Site maps
+
 You need to use site map to show all your site main contents or categories.
+
 ### Grouping & similarity
-Use sense in Design, so you can easily *Organize* your element into groups. ![grouping](images/grouping.png)
+
+Use sense in Design, so you can easily *Organize* your element into groups.
+
+ ![grouping](images/grouping.png)
+
 ### Designing Navigation
+
 This part Deosnot only help people find where they want to go. Also helps them understand what your site is about.
 
-
-
 # HTML Layout
+
 * **(< div >)** element is used to group related elemetns on the page. as shown in the below image.
  ![imgdiv](images/read03.png)
 
@@ -64,6 +76,7 @@ This part Deosnot only help people find where they want to go. Also helps them u
  # Headers & Footers 
  the main **Header** or **Footer** that appears at the top or the bottom of every page on the site.
  the **header** tag is
+
 * (< header >) (< / header >)
 * ( < footer >) ( < / footer > )
 
@@ -98,12 +111,16 @@ it can be used to contain any content that is referenced from an article.
 ----------------------------------
 
 # The Evolution of HTML
+
 * ## HTML 4
+
 had some **presentational** elements to
 control the appearance of pages,
 authors are not recommended to
 use them any more.
+
 * ## XHTML 1.0 
+
 Since HTML was the most widely used
 markup language around, it was
 decided that **HTML 4** should be
@@ -113,9 +130,10 @@ of *XML* and it was renamed
 authors had to follow some new,
 more strict rules about writing
 markup. For example:
+
 * Every element needed a
 closing tag (except for empty
-elements such as <img />).
+elements such as < img />).
 * Attribute names had to be in
 lowercase.
 * All attributes required a value,
@@ -129,6 +147,7 @@ element should be closed
 inside that same element.
 
 * ## HTML5
+
 Web page authors do
 not need to close all tags, and
 new elements and attributes will
@@ -136,9 +155,10 @@ be introduced. At the time of
 writing, the HTML5 specification
 had not been completed.
 
-------
+-----
 
 # DOCTYPEs
+
 Each web page should begin with a
 **DOCTYPE** declaration to tell a
 browser which version of *HTML*
@@ -167,13 +187,12 @@ identifying one element within
 a document, you will want a
 way to identify several elements
 as being different from the
-other elements on the page. 
+other elements on the page.
 # Block Elements
 Some elements will always
 appear to start on a new line in
 the browser window. These are
-known as ***block level*** elements. 
-# Inline Elements
+known as ***block level*** elements.
 Some elements will always
 appear to continue on the
 same line as their neighbouring
@@ -193,6 +212,7 @@ element to differentiate it from
 its surrounding text.
 2. Contain a number of inline
 elements.
+
 # IFrames
 An **iframe** is like a little window
 that has been cut into your

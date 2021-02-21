@@ -1,3 +1,104 @@
+# TABLES
+
+## Basic Table Structure
+
+* < table>
+
+The < table> element is used to create a table. The contents of the table are written out row by row.
+
+* < tr>
+
+You indicate the start of each row using the opening < tr> tag. (The tr stands for table row.)
+It is followed by one or more < td> elements (one for each cell in that row).
+At the end of the row you use a closing < /tr> tag.
+
+* < td>
+
+Each cell of a table is represented using a < td> element. (The td stands for
+table data.)
+
+## Table Headings
+
+< th>
+The < th> element is used just like the < td> element but its purpose is to represent the heading for either a column or a row.
+
+## Spanning Columns
+
+Sometimes you may need the entries in a table to stretch across more than one column.
+The colspan attribute can be used on a < th> or < td> element and indicates how many columns
+that cell should run across.
+
+## Spanning Rows
+
+You may also need entries in a table to stretch down across more than one row.
+The rowspan attribute can be used on a < th> or < td> element to indicate how many rows a cell
+should span down the table.
+
+## Long Tables
+
+* < thead>
+
+The headings of the table should sit inside the < thead> element.
+
+* < tbody>
+
+The body should sit inside the < tbody> element.
+
+* < tfoot>
+
+The footer belongs inside the < tfoot> element.
+
+## Old Code: Width & Spacing
+
+There are some outdated attributes which you should not use on new websites. You may,
+however, come across some of them when looking at older code, so I will mention them
+here. All of these attributes have been replaced by the use of CSS. The width attribute was used
+on the opening < table> tag to indicate how wide that table should be and on some opening
+< th> and < td> tags to specify the width of individual cells. The value of this attribute is
+the width of the table or cell in pixels. The columns in a table need to form a straight line, so you often only see the width attribute on the first row (and all subsequent rows would use that setting).
+
+## Old Code: Border & Background
+
+The border attribute was used on both the < table> and < td> elements to indicate the width of
+the border in pixels. The bgcolor attribute was used to indicate background colors
+of either the entire table or individual table cells. The value is usually a hex code.
+
+**Function** 
+* let you group a series of statements together to perform a specific task. Also it is used if you want to reuse the same statements more than one time.
+
+
+
+* Grouping together the statements that are required to perform a specific task also helps organize your code.
+* The statements or steps the function needs to perform are packaged in a *code block*.
+* Further, the statements in a *function* are *NOT* always executed  when a page loads, also offers you to store the steps needed to do a task.
+* Some *functions* needs to be provided with information in order to achieve a task.
+* Information that are passed to a *function* known as **Parameters**.
+* The responses of a function are called **Return Value**.
+
+
+
+# A Basic Function
+
+Here in this Example the user is shown a message it is held in an HTML element and going to be changed using JavaScript.
+![functionhtml](images/functionhtml.png)
+
+we link the HTML with JS in the HTML body we write 
+< script src="the path"> < /script >
+
+# Declaring a function
+To create a function you give it a name and then write the statements needed to be done inside the curly braces.
+
+To call a function we only write **the name of the function**.
+ 
+ # Declaring a function that need *Information*
+ We write a normal function the write inside it the **Parameters**  that needed.
+![functioninfo](images/functioninfo.png)
+
+To call a function that need information we give every **Parameter** information, then we call the function including its **Parameters**.
+
+To get a **single value** out of a function.
+![singlevalue](images/singlevalue.png)
+
 # OBJECTS
 
 Objects group together a set of variables and functions to create a model
