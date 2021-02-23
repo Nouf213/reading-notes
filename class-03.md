@@ -54,6 +54,7 @@ This is used to contain the
 definition.
 
 ## Nested Lists
+
 You can put a second list inside
 an < li> element to create a sublist
 or nested list.
@@ -85,6 +86,7 @@ width properties.
 ## Limiting Width
 
 ### min-width, max-width
+
 These are very helpful properties
 to ensure that the content of
 pages are legible (especially on
@@ -217,6 +219,7 @@ border-bottom-color
 border-left-color
 
 ![borcol](images/borcol.png)
+
 ## Shorthand border
 
 The border property allows you
